@@ -1,0 +1,28 @@
+---
+import Body from '../components/body.jsx';
+import Footer from '../components/footer.jsx';
+import Hero from '../components/hero.jsx';
+import TopNav from '../components/topNav.jsx';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+		<link rel="stylesheet" href="src/components/main.css" />
+		<noscript><link rel="stylesheet" href="src/components/noscript.css" /></noscript>
+		<title>Glenrock</title>
+	</head>
+	<body>
+		<TopNav client:load />
+		<div id="page-wrapper">
+			<Hero client:load/>
+			<Body client:load/>
+			<Footer client:load/>
+		</div>
+	</body>
+</html>
