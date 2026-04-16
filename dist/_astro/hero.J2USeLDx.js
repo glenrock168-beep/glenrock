@@ -1,1 +1,0 @@
-import{j as s}from"./jsx-runtime.D_zvdyIk.js";import"./index.95d291e9.l0sNRNKZ.js";const i=()=>s.jsx("section",{id:"banner",children:s.jsxs("div",{class:"inner",children:[s.jsx("div",{class:"logo",children:s.jsx("span",{class:"icon solid fa-home"})}),s.jsx("h2",{children:"Glenrock"}),s.jsx("p",{children:"Strategic Solutions for Growth"})]})});export{i as default};
