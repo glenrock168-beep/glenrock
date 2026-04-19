@@ -1,0 +1,8 @@
+/* Calendly Widget Transparent Background */
+.calendly-inline-widget {
+  background: transparent !important;
+}
+
+.calendly-inline-widget iframe {
+  background: transparent !important;
+}
