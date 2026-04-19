@@ -1,8 +1,27 @@
-/* Calendly Widget Transparent Background */
+/* Calendly Widget Styling */
 .calendly-inline-widget {
   background: transparent !important;
+  width: 80% !important;
+  max-width: 900px !important;
+  height: 700px !important;
+  margin: 0 auto !important;
 }
 
 .calendly-inline-widget iframe {
   background: transparent !important;
+  width: 100% !important;
+  height: 700px !important;
+}
+
+/* Responsive width only on smaller screens */
+@media (max-width: 768px) {
+  .calendly-inline-widget {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .calendly-inline-widget {
+    width: 100% !important;
+  }
 }
