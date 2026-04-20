@@ -7,7 +7,19 @@ const Footer = () => {
             <h2 class="major">Get in touch</h2>
             <p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
             {/* Calendly inline widget begin */}
-            <div className="calendly-inline-widget" data-url="https://calendly.com/d/cvtf-3p7-kj2"></div>
+            <div
+              className="calendly-inline-widget"
+              data-url="https://calendly.com/d/cvtf-3p7-kj2"
+              style={{
+                width: '80%',
+                maxWidth: '900px',
+                minWidth: '320px',
+                height: '700px',
+                margin: '0 auto',
+                background: 'transparent',
+                overflow: 'visible',
+              }}
+            ></div>
             <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
             {/* Calendly inline widget end */}
             <ul class="contact">
