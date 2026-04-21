@@ -3,6 +3,6 @@ import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   integrations: [react()],
-  site: 'https://glenrockusa.com',
-  base: '/',
+  site: 'https://glenrock168-beep.github.io',
+  base: '/glenrock/',
 });

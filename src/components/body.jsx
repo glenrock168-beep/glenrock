@@ -7,7 +7,7 @@ const Body = () => {
         {/* One */}
             <section id="one" class="wrapper spotlight style1">
                 <div class="inner">
-                    <a href="#" class="image"><img src="/commercial-roofing.jpg" alt="" /></a>
+                    <a href="#" class="image"><img src="/roofTwo.png" alt="" /></a>
                     <div class="content">
                         <h2 class="major">Reliable Roofing for Commercial Performance.</h2>
                         <p>Glen Rock Roofing specializes in high-quality commercial roofing solutions designed to protect businesses and industrial properties. 
