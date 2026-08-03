@@ -25,8 +25,8 @@ const Footer = () => {
             <ul class="contact">
                 <li class="icon solid fa-home">
                     Glenrock<br />
-                    1234 Somewhere Road Suite #2894<br />
-                    Atlanta, GA 12345
+                    4825 Fulton Industrial Blvd<br />
+                    Atlanta, Ga 30336
                 </li>
                 <li class="icon solid fa-phone">(404) 518-8998</li>
                 <li class="icon solid fa-envelope"><a href="#">info@glenrockusa.com</a></li>
