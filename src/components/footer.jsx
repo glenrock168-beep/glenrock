@@ -6,22 +6,6 @@ const Footer = () => {
         <div class="inner">
             <h2 class="major">Get in touch</h2>
             <p>Get started on your commercial roofing project today. Schedule a time using the form below, provide your project details, and our team will prepare a customized quote tailored to your needs.</p>
-            {/* Calendly inline widget begin */}
-            <div
-              className="calendly-inline-widget"
-              data-url="https://calendly.com/d/cvtf-3p7-kj2"
-              style={{
-                width: '80%',
-                maxWidth: '900px',
-                minWidth: '320px',
-                height: '700px',
-                margin: '0 auto',
-                background: 'transparent',
-                overflow: 'visible',
-              }}
-            ></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-            {/* Calendly inline widget end */}
             <ul class="contact">
                 <li class="icon solid fa-home">
                     Glenrock<br />
